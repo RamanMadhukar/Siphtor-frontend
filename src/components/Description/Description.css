@@ -1,0 +1,21 @@
+@media screen and (max-width:450px) {
+
+    .description>h4 {
+        margin-top: 50px;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 100;
+        font-size: 30px;
+        letter-spacing: 0px;
+        word-spacing: 3px;
+        text-align: center;
+        line-height: 50px;
+        color: #ffffffab;
+    }
+
+    .description>h4>strong {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900 !important;
+        color: #8bbb34;
+    }
+    
+}

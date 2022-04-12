@@ -1,0 +1,13 @@
+
+@media screen and (max-width:450px) {
+
+    .landingPageSection {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #092130;
+        color: white;
+    }
+
+}
