@@ -1,0 +1,75 @@
+@media screen and (max-width:450px) {
+
+    .registrationSec {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #092130;
+        color: white;
+    }
+
+    .btnDiv {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        margin-top: 25px;
+    }
+
+    .btn {
+        margin-bottom: 15px;
+        width: 70%;
+        height: 50px;
+        outline: none;
+        border: none;
+        font-size: 20px;
+    }
+
+    .fbSignin {
+        background: #5397d7;
+    }
+
+    .fbSignin:hover {
+        background: #5397d796;
+    }
+
+    .twitterSignin {
+        background: #40b9e0;
+    }
+
+    .twitterSignin:hover {
+        background: #40b9e099;
+    }
+
+    .gmailSignin {
+        background: #e04c40;
+    }
+
+    .gmailSignin:hover {
+        background: #e04c40b0;
+    }
+
+    .customLogin {
+        text-align: center;
+
+        margin-top: 40px;
+    }
+
+    .signUp {
+        font-size: 25px;
+        font-weight: 500;
+        text-decoration: underline;
+        color: #8bbb34;
+    }
+
+    .signUp:hover{
+        color: #8bbb34cc;
+    }
+
+    .customLogin>p{
+        font-weight: 400;
+        letter-spacing: 1px;
+        color: #ffffffa3;
+    }
+}
