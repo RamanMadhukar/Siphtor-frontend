@@ -7,7 +7,7 @@ import './LandingPage.css'
 const LandingPage = () => {
     return (
         <>
-            <section className='landingPageSection'>
+            <section className='authSec'>
 
                 <Logo />
 

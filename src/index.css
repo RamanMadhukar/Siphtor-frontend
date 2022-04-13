@@ -25,3 +25,9 @@ a {
 a:hover {
   color: inherit;
 }
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus, .btn-primary:active:focus {
+  border: none;
+  box-shadow: none;
+}
+

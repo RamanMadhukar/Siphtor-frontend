@@ -1,0 +1,8 @@
+.gmailSignin {
+    background: #e04c40;
+}
+
+.gmailSignin:hover, .gmailSignin:active, .gmailSignin:focus {
+    background: #e04c40b0;
+    
+}

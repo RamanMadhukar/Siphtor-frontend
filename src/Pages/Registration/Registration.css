@@ -1,0 +1,42 @@
+@media screen and (max-width:450px) {
+
+    .btnDiv {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        align-items: center;
+        margin-top: 25px;
+    }
+
+    .authBtn {
+        margin-bottom: 15px;
+        width: 100%;
+        height: 50px;
+        outline: none;
+        border: none;
+        font-size: 20px;
+        transition: none;
+    }
+
+    .customLogin {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .signUp {
+        font-size: 25px;
+        font-weight: 500;
+        text-decoration: underline;
+        color: #8bbb34;
+    }
+
+    .signUp:hover {
+        color: #8bbb34cc;
+    }
+
+    .customLogin>p {
+        font-weight: 400;
+        letter-spacing: 1px;
+        color: #ffffffa3;
+    }
+}

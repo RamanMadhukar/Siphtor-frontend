@@ -1,0 +1,7 @@
+.fbSignin {
+    background: #5397d7;
+}
+
+.fbSignin:hover, .fbSignin:active, .fbSignin:focus {
+    background: #5397d796;
+}

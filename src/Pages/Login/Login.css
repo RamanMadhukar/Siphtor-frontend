@@ -1,0 +1,72 @@
+@media screen and (max-width:450px) {
+
+    .loginBtnDiv {
+        display: flex;
+        width: 85%;
+        justify-content: space-around;
+    }
+
+    .btnwarper {
+        width: 30%;
+    }
+
+    .inputdiv {
+        margin: 15px 0;
+        width: 82%;
+    }
+
+    .loginForm {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .inputfield {
+        margin-bottom: 10px;
+        height: 60px;
+        background-color: transparent;
+        border: 1.6px solid #ffffff94;
+        border-radius: 5px;
+        outline: none;
+        color: white;
+        padding: 15px 20px;
+        font-size: 25px;
+    }
+
+    .loginBtn {
+        background: #ff9934;
+        outline: none;
+        border: none;
+        height: 60px;
+        font-size: 25px;
+    }
+
+    .loginBtn:hover, .loginBtn:active, .loginBtn:focus {
+        background: #ff9934d1;
+
+    }
+
+    .or {
+        display: flex;
+        flex-direction: row;
+        font-size: 18px;
+        align-items: center;
+        color: white;
+    }
+
+    .or:before,
+    .or:after {
+        content: "";
+        flex: 1 1;
+        border-bottom: 5px solid white;
+        margin: 0 15px;
+    }
+
+}
+
+@media screen and (max-width:380px) {
+    .btnwarper>.authBtn {
+        font-size: 15px;
+    }
+
+}
