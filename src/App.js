@@ -6,6 +6,7 @@ import Registration from './Pages/Registration/Registration';
 import LandingPage from './Pages/LandingPage/LandingPage';
 import Signup from './Pages/Signup/Signup';
 import ForgotPassword from './Pages/ForgotPassword/ForgotPassword';
+import Home from './Pages/Home/Home';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/login" exact element={<Login />} />
           <Route path="/signin" exact element={<Signup />} />
           <Route path="/forget-password" exact element={<ForgotPassword />} />
+          <Route path="/home" exact element={<Home />} />
         </Routes>
       </BrowserRouter>
 

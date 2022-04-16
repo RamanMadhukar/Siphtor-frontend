@@ -1,0 +1,27 @@
+.news {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:450px) {
+
+    .logoDiv>.headDiv>h1{
+        background-color: #092130;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+        font-size: 40px !important;
+    }
+
+    .home {
+        min-height: 100vh;
+    }
+
+    .news {
+        display: flex;
+        flex-wrap: wrap;
+        background: #edf0f2;
+
+    }
+
+}

@@ -1,0 +1,37 @@
+@media screen and (max-width:450px) {
+    .homeCard{
+        max-width: 40%;
+        border-radius: 25px;
+        margin: 20px;
+        background: white;
+        height: max-content;
+        font-family: 'Oswald', sans-serif;
+
+    }
+
+    .imgDiv{
+        /* border-radius: 25px; */
+
+    }
+
+    .cardImg{
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+
+
+    }
+
+    .sourceDiv{
+        font-size: 12px;
+        margin: 5px 12px;
+        font-weight: 900;
+        color: #8bbb34;
+    }
+
+    .CardHead{
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        margin: 5px 12px;
+    }
+}
