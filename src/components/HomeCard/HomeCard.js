@@ -7,7 +7,7 @@ const HomeCard = () => {
 
             <div className="homeCard">
                 <div className="imgDiv">
-                    <img className='cardImg' src="/images/download.jpg" alt="" height="200" width="100%"/>
+                    <img className='cardImg' src="/images/download.jpg" alt="" height="150" width="100%"/>
                 </div>
                 <div className="sourceDiv">
                     NEW YORK TIMES

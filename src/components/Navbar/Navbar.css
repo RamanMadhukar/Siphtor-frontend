@@ -1,0 +1,34 @@
+.navbarSec {
+    background: #092130;
+    color: white;
+}
+
+.navbarSec>ol {
+    padding: 35px 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+    height: 50px;
+    font-weight: 500 !important;
+}
+
+.navbarSec>ol>li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+}
+
+/* .wifiIcon>i {
+    transform: rotate(45deg);
+} */
+
+.active {
+    background: #99cb34;
+    border-radius: 5px;
+    color: #000;
+    font-size: 25px;
+}
