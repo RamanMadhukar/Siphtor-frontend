@@ -37,11 +37,10 @@ const Home = () => {
                     <HomeCard />
                 </div>
 
-                <section className="navbarSec">
-                    <Navbar />
-                </section>
-
             </div>
+            <section className="navbarSecHome">
+                <Navbar />
+            </section>
         </>
     )
 }

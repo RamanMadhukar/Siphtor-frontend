@@ -18,7 +18,9 @@
     }
 
     .home {
-        height: 100vh;
+        min-height: 100vh;
+        margin-bottom: 60px;
+
     }
 
     .news {
@@ -26,13 +28,14 @@
         flex-wrap: wrap;
         background: #edf0f2;
         padding-bottom: 30px;
-
     }
 
-    .navbarSec {
-        position: sticky;
+    .navbarSecHome {
+        position: fixed;
         bottom: 0;
         width: 100%;
+        background: #092130;
+        height: fit-content;
     }
 
 }
