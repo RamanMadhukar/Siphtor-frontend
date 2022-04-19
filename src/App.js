@@ -22,6 +22,7 @@ function App() {
           <Route path="/forget-password" exact element={<ForgotPassword />} />
           <Route path="/home" exact element={<Home />} />
           <Route path="/detailed" exact element={<Detailed />} />
+          {/* <Route path="/socialPage" exact element={<Sidebar />} /> */}
         </Routes>
       </BrowserRouter>
 

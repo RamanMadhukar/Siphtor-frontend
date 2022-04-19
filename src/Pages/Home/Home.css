@@ -13,10 +13,6 @@
         font-size: 40px !important;
     }
 
-    .filterDiv{
-        display: flex;
-    }
-
     .home {
         min-height: 100vh;
         margin-bottom: 60px;

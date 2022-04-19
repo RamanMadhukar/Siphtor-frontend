@@ -1,0 +1,61 @@
+.filterSec{
+    margin: 10px 10px;
+}
+
+.filterDiv {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.filterDiv::-webkit-scrollbar {
+    display: none;
+}
+
+.filterDiv {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.filterDiv>button{
+    margin-right: 10px;
+    color: #e6e9eb;
+    border-color: #e6e9eb;
+    border: 3px solid;
+    border-radius: 10px;
+}
+
+.secondDiv>.btn-outilne-success{
+    border: 2px dashed #99cb34;
+    color: #99cb34;
+    font-size: 20px;
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.secondDiv{
+    display: flex;
+    overflow-x: scroll;
+    margin-top: 10px;
+}
+
+
+.secondDiv::-webkit-scrollbar {
+    display: none;
+}
+
+.secondDiv {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.secondDiv>button{
+    margin-right: 10px;
+    color: #e6e9eb;
+    border: none;
+    border-radius: 10px;
+}

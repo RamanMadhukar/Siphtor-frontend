@@ -93,9 +93,15 @@
        align-items: center;
    }
 
+   .likeDislikeDiv>div:hover{
+       cursor: pointer;
+       color: #99cc33;
+   }
+
    .likeDislikeDiv>div>p{
        margin: 0 0 0 15px;
        font-size: 15px;
+       font-weight: 500;
    }
 
 

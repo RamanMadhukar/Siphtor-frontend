@@ -3,7 +3,7 @@ import HomeCard from '../../components/HomeCard/HomeCard'
 import './Home.css'
 import Logo from '../../components/Logo/Logo'
 import Navbar from '../../components/Navbar/Navbar'
-import HomeFilterBtn from '../../components/HomeFilterBtn/HomeFilterBtn'
+import HomeFilter from '../../components/HomeFilter/HomeFilter'
 
 const Home = () => {
     return (
@@ -15,16 +15,8 @@ const Home = () => {
                     <Logo />
                 </div>
 
-                <div className="topSec">
-
-                    {/* <div className="filterDiv">
-                        <button className='btn btn-danger'>Blocked</button>
-                        <button className='btn btn-success'>+</button>
-                        <HomeFilterBtn />
-                    </div> */}
-
-
-
+                <div className="filterSec">
+                    <HomeFilter />
                 </div>
 
                 <div className="news">

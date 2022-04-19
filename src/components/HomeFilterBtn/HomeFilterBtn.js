@@ -5,7 +5,7 @@ const HomeFilterBtn = () => {
     return (
         <>
 
-        <button className='btn btn-outline-light'>Music</button>
+            <button className='btn btn-outline-light'>Music</button>
 
         </>
     )
