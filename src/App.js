@@ -8,6 +8,7 @@ import Signup from './Pages/Signup/Signup';
 import ForgotPassword from './Pages/ForgotPassword/ForgotPassword';
 import Home from './Pages/Home/Home';
 import Detailed from './Pages/Detailed/Detailed';
+import SocialPage from './Pages/SocialPage/SocialPage';
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
           <Route path="/forget-password" exact element={<ForgotPassword />} />
           <Route path="/home" exact element={<Home />} />
           <Route path="/detailed" exact element={<Detailed />} />
-          {/* <Route path="/socialPage" exact element={<Sidebar />} /> */}
+          <Route path="/socialPage" exact element={<SocialPage />} />
         </Routes>
       </BrowserRouter>
 

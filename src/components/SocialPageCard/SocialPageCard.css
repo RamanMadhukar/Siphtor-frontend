@@ -1,0 +1,40 @@
+@media screen and (max-width:450px) {
+
+    .SocialPageCardSec{
+        margin: 10px 0;
+    }
+
+    .mainDiv {
+        background-color: #fff;
+        border-radius: 10px;
+    }
+
+    .leftDiv {
+        padding: 15px 0 15px 30px;
+    }
+
+    .SocialCardHead {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .socialAvatar {
+        margin-right: 15px;
+    }
+
+    .date {
+        font-size: 13px;
+        color: #e6e6e6;
+    }
+
+    .postContent {
+        font-size: 15px;
+        margin: 10px 0;
+    }
+
+    .imgSec>img{
+        border-top-right-radius: 10px ;
+        border-bottom-right-radius: 10px;
+    }
+}

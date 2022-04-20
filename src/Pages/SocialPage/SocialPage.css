@@ -1,0 +1,50 @@
+@media screen and (max-width:450px) {
+
+    .SocialPage {
+        margin-bottom: 60px;
+    }
+
+    .addPost {
+        padding: 10px 15px;
+        background-color: #edf0f2;
+    }
+
+    .addPostBtn {
+        width: 100%;
+        height: 60px;
+        font-weight: 500;
+        background: #ff8c19;
+        border: none;
+        border-radius: 10px;
+    }
+
+    .addPostBtn:hover, .addPostBtn:active, .addPostBtn:focus {
+        background-color: #ff8c19bd;
+    }
+
+    .socialContent {
+        background: #f5f8fa;
+        /* min-height: 60vh; */
+        padding: 10px 15px;
+    }
+
+    .socialFollowDiv {
+        background-color: #edf0f2;
+        padding: 10px;
+        display: flex;
+        overflow: scroll;
+    }
+
+    .socialFollowDiv::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .socialFollowDiv {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+    .socialFollowDiv>section{
+        margin-right: 10px;
+    }
+}
