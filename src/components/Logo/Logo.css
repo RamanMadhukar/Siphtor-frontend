@@ -1,8 +1,11 @@
 @media screen and (max-width:450px) {
 
-    /* .headDiv {
-        padding-top: 50px;
-    } */
+    .headDiv {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       background-color: #092130;
+    }
 
     .headDiv>h1 {
         font-size: 50px;

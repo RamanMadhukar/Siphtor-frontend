@@ -9,6 +9,7 @@ import ForgotPassword from './Pages/ForgotPassword/ForgotPassword';
 import Home from './Pages/Home/Home';
 import Detailed from './Pages/Detailed/Detailed';
 import SocialPage from './Pages/SocialPage/SocialPage';
+import BookmarkPage from './Pages/BookmarkPage/BookmarkPage';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/home" exact element={<Home />} />
           <Route path="/detailed" exact element={<Detailed />} />
           <Route path="/socialPage" exact element={<SocialPage />} />
+          <Route path="/bookmarkPage" exact element={<BookmarkPage />} />
         </Routes>
       </BrowserRouter>
 
