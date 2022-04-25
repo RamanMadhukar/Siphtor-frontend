@@ -7,13 +7,13 @@ const Logo = (props) => {
             <div className="headDiv row">
 
                 <div className="filterIcon bookIcon col" onClick={props.filopenFun} style={{color:props.filOpen&&'#99cb34'}}>
-                    <i class="fa-solid fa-filter"></i>
+                    <i className="fa-solid fa-filter"></i>
                 </div>
 
                 <h1 className='col'>siphtor</h1>
 
                 <div className="searchIcon bookIcon col">
-                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i className="fa-solid fa-magnifying-glass"></i>
                 </div>
 
             </div>

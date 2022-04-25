@@ -1,0 +1,10 @@
+@media screen and (max-width:450px) {
+
+    .profilePageSec {
+        overflow-x: hidden;
+        background-color: #edf0f2;
+        min-height: 100vh;
+        margin-bottom: 60px;
+    }
+
+}

@@ -2,6 +2,7 @@
 
     .SocialPage {
         margin-bottom: 60px;
+        overflow-x: hidden;
     }
 
     .addPost {

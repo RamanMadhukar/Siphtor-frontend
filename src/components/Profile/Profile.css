@@ -1,0 +1,60 @@
+@media screen and (max-width:450px) {
+    .profileDiv {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-color: #fff;
+        margin-top: 20px;
+    }
+
+    .profileDiv>div {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .proNameDiv {
+        margin-left: 20px;
+    }
+
+    .nextArrow {
+        font-size: 35px;
+        color: #e2e5e7;
+        font-weight: 300;
+    }
+
+    .postDiv {
+        margin-top: 20px;
+    }
+
+    .listWrraper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-color: #fff;
+    }
+
+    .listItem {
+        display: flex;
+        font-family: 'Oswald', sans-serif;
+        align-items: center;
+    }
+
+    .listIcon {
+        font-size: 20px;
+        color: #99cb34;
+    }
+
+
+    .listName>h1 {
+        font-weight: 500 !important;
+        margin-left: 20px;
+        font-size: 25px;
+    }
+
+    .profileSec:last-child{
+        margin-bottom: 30px;
+    }
+}

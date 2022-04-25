@@ -19,17 +19,17 @@ const BookmarkPage = () => {
 
     return (
         <>
-            <div className={`SocialPage ${filOpen&&"scrollFilOpen"}`} >
+            <div className={`bookmarkPage`} >
 
-                <div className="logoDiv container" onClick={filOpen&&handelFilopen} >
+                <div className="logoDiv container" >
                     <Logo filopenFun={handelFilopen} filOpen={filOpen} />
                 </div>
 
-                <div className={`bookMarkFilter ${filOpen&&"open"}`} >
+                <div className={`bookMarkFilter ${filOpen && "open"}`} >
                     <BoookMarkFilter />
                 </div>
 
-                <div className={`filOverlay ${filOpen&&"open"}`}></div>
+                <div onClick={filOpen ? handelFilopen : ""} className={`filOverlay ${filOpen && "open"}`}></div>
 
 
 
@@ -50,7 +50,7 @@ const BookmarkPage = () => {
             </div>
 
 
-            <section className="navbarSecHome" onClick={filOpen&&handelFilopen}>
+            <section className="navbarSecHome" onClick={filOpen && handelFilopen}>
                 <Navbar />
             </section>
 

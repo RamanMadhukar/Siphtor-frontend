@@ -16,11 +16,11 @@ const Detailed = () => {
 
                     <div className="iconDiv">
                         <div className="starIcon">
-                            <i class="fa-solid fa-star"></i>
+                            <i className="fa-solid fa-star"></i>
                         </div>
 
                         <div className="cameraIcon">
-                            <i class="fa-solid fa-camera"></i>
+                            <i className="fa-solid fa-camera"></i>
                         </div>
                     </div>
 
@@ -63,22 +63,22 @@ const Detailed = () => {
 
                 <div className="likeDislikeDiv">
                     <div className="likeIcon">
-                        <i class="fa-solid fa-thumbs-up"></i>
+                        <i className="fa-solid fa-thumbs-up"></i>
                         <p>15</p>
                     </div>
 
                     <div className="dislikeIcon">
-                        <i class="fa-solid fa-thumbs-down"></i>
+                        <i className="fa-solid fa-thumbs-down"></i>
                         <p>3</p>
                     </div>
 
                     <div className="shareIcon">
-                        <i class="fa-solid fa-share-nodes"></i>
+                        <i className="fa-solid fa-share-nodes"></i>
                         <p>60</p>
                     </div>
 
                     <div className="chatIcon">
-                        <i class="fa-solid fa-message"></i>
+                        <i className="fa-solid fa-message"></i>
                         <p>0</p>
                     </div>
 

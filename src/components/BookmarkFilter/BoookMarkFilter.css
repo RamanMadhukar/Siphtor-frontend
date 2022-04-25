@@ -56,6 +56,7 @@
     /* On mouse-over, add a grey background color */
     .containerBookmarkFil:hover input~.checkmark {
         background-color: #99cb34a1;
+        border-color: #99cb34;
     }
 
     /* When the checkbox is checked, add a blue background */
@@ -90,6 +91,10 @@
     }
 
     .checkBold {
+        font-weight: 700;
+    }
+
+    .containerBookmarkFil:visited {
         font-weight: 700;
     }
 

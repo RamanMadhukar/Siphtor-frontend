@@ -1,6 +1,10 @@
 @media screen and (max-width:450px) {
 
-    .SocialPage>.logoDiv>.headDiv>.bookIcon {
+    .bookmarkPage {
+        margin-bottom: 60px;
+    }
+
+    .bookmarkPage>.logoDiv>.headDiv>.bookIcon {
         display: flex;
     }
 
