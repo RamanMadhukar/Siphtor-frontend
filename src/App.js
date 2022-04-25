@@ -12,6 +12,7 @@ import SocialPage from './Pages/SocialPage/SocialPage';
 import BookmarkPage from './Pages/BookmarkPage/BookmarkPage';
 import ProfilePage from './Pages/ProfilePage/ProfilePage';
 import FollowersPage from './Pages/FollowersPage/FollowersPage';
+import FollowingPage from './Pages/FollowingPage/FollowingPage';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route path="/bookmarkPage" exact element={<BookmarkPage />} />
           <Route path="/profile" exact element={<ProfilePage />} />
           <Route path="/followersPage" exact element={<FollowersPage />} />
+          <Route path="/followingPage" exact element={<FollowingPage />} />
         </Routes>
       </BrowserRouter>
 
