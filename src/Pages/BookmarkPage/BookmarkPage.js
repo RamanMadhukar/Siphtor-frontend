@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useState } from 'react'
+import BoookMarkFilter from '../../components/BookmarkFilter/BoookMarkFilter'
 import HomeFilter from '../../components/HomeFilter/HomeFilter'
 import Logo from '../../components/Logo/Logo'
 import Navbar from '../../components/Navbar/Navbar'
@@ -6,21 +7,30 @@ import SocialPageCard from '../../components/SocialPageCard/SocialPageCard'
 import './BookmarkPage.css'
 
 const BookmarkPage = () => {
+
+    const [filOpen, setFilopen] = useState(false);
+
+    const handelFilopen = () => {
+        var element = document.getElementsByTagName("body");
+        element[0].classList.toggle("scrollFilOpen");
+        setFilopen(!filOpen);
+    }
+
+
     return (
         <>
-            <div className="SocialPage">
+            <div className={`SocialPage ${filOpen&&"scrollFilOpen"}`} >
 
-
-
-                <div className="logoDiv">
-
-                    
-
-                    <Logo />
-
-                    
-
+                <div className="logoDiv container" onClick={filOpen&&handelFilopen} >
+                    <Logo filopenFun={handelFilopen} filOpen={filOpen} />
                 </div>
+
+                <div className={`bookMarkFilter ${filOpen&&"open"}`} >
+                    <BoookMarkFilter />
+                </div>
+
+                <div className={`filOverlay ${filOpen&&"open"}`}></div>
+
 
 
 
@@ -40,7 +50,7 @@ const BookmarkPage = () => {
             </div>
 
 
-            <section className="navbarSecHome">
+            <section className="navbarSecHome" onClick={filOpen&&handelFilopen}>
                 <Navbar />
             </section>
 

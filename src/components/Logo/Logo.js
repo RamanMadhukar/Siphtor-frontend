@@ -1,18 +1,18 @@
 import React from 'react'
 import './Logo.css'
 
-const Logo = () => {
+const Logo = (props) => {
     return (
         <>
-            <div className="headDiv">
+            <div className="headDiv row">
 
-                <div className="filterIcon bookIcon">
+                <div className="filterIcon bookIcon col" onClick={props.filopenFun} style={{color:props.filOpen&&'#99cb34'}}>
                     <i class="fa-solid fa-filter"></i>
                 </div>
 
-                <h1>siphtor</h1>
+                <h1 className='col'>siphtor</h1>
 
-                <div className="searchIcon bookIcon">
+                <div className="searchIcon bookIcon col">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
 

@@ -1,10 +1,15 @@
+.bookIcon {
+    display: none;
+}
+
 @media screen and (max-width:450px) {
 
     .headDiv {
-       display: flex;
-       justify-content: space-between;
-       align-items: center;
-       background-color: #092130;
+        display: flex;
+        /* justify-content: space-between; */
+        align-items: center;
+        background-color: #092130;
+        color: #fff;
     }
 
     .headDiv>h1 {
@@ -12,6 +17,20 @@
         font-family: 'Oswald', sans-serif;
         font-weight: 900;
         letter-spacing: 10px;
+    }
+
+    .bookIcon {
+        padding: 20px;
+        font-size: 20px;
+        font-weight: 300;
+        cursor: pointer;
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bookIcon:hover{
+        cursor: pointer;
     }
 
 }
