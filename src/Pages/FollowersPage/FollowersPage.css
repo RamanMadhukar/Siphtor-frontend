@@ -1,0 +1,14 @@
+@media screen and (max-width:450px) {
+    .followersPageSec {
+        background-color: #edf0f2;
+        min-height: 100vh;
+        margin-bottom: 70px;
+        overflow-x: hidden;
+    }
+
+    .followersPageDiv{
+        background-color: #fff;
+        margin: 10px 0;
+    }
+
+}

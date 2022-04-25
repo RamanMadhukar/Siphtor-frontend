@@ -1,0 +1,22 @@
+@media screen and (max-width:450px) {
+    .followerCardDiv {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 20px;
+        padding: 20px 0;
+        border-bottom: 1px solid #ccbdbd8f;
+
+    }
+
+    .followerCardDiv>.nameDiv {
+        width: 50%;
+        font-weight: 600;
+    }
+
+
+    .followBTNDiv>.followBtn{
+        background: #99cb34;
+        padding: 5px 15px;
+    }
+}

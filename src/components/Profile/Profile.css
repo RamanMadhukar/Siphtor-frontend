@@ -26,14 +26,19 @@
 
     .postDiv {
         margin-top: 20px;
+        background-color: #fff;
+
     }
 
     .listWrraper {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 10px;
-        background-color: #fff;
+        margin: 10px;
+    }
+
+    .postDiv>.listWrraper:not(:last-child) {
+        border-bottom: 1px solid #ccbdbd8f;
     }
 
     .listItem {
@@ -54,7 +59,7 @@
         font-size: 25px;
     }
 
-    .profileSec:last-child{
+    .profileSec:last-child {
         margin-bottom: 30px;
     }
 }
