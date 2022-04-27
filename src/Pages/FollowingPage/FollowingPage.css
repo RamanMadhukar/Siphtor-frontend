@@ -7,15 +7,15 @@
 
 .MuiToggleButtonGroup-root{
     width: 90%;
-    border: 2px solid #99cb34;
+    border: 2px solid #99cb34 !important;
     padding: 0 !important;
 }
 
 
 .MuiToggleButtonGroup-root>button{
     width:60%  !important;
-    color: #99cb34;
-    background-color: #edf0f2;
+    color: #99cb34 !important;
+    background-color: #edf0f2 !important;
     font-weight: 700 !important;
     font-size: 15px;
     padding: 5px;
