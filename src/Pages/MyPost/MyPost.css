@@ -1,11 +1,31 @@
 @media screen and (max-width:450px) {
 
     .myPost {
-        margin-bottom: 60px;
+        margin-bottom: 70px;
         overflow-x: hidden;
+        background-color: #f5f8fa;
+
     }
 
-    .myPostNews .leftDiv{
+    .myPost>.socialContent {
+        padding-bottom: 5px;
+    }
+
+    .myPost>.myPostNews>.socialContent {
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+
+    .myPost>.socialContent>.SocialPageCardSec {
+        margin-bottom: 0;
+    }
+
+    /* .myPost>.socialContent>.sharedPost>.SocialPageCardSec {
+        margin-bottom: 0;
+        background-color: #f5f8fa;
+    } */
+
+    .myPostNews .leftDiv {
         width: 100%;
         height: fit-content;
     }
@@ -13,23 +33,22 @@
     .myPostNews .imgSec {
         display: none;
     }
-    
-    .sharedPost{
-        /* max-height: 40px !important; */
-        margin-bottom: 20px;
+
+    .sharedPost>.socialContent {
+        padding-top: 0px;
     }
 
-    .sharedProfile{
+    .sharedProfile {
         padding-bottom: 10px;
         border-bottom: 1px solid #e7acac;
         margin-bottom: 10px;
     }
 
-    .sharedLink>p{
+    .sharedLink>p {
         color: #c7d8e7;
     }
 
-    .sharedLink>p>strong{
+    .sharedLink>p>strong {
         color: #000;
         font-weight: 500;
     }

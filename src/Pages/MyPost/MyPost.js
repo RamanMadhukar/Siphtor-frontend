@@ -34,10 +34,13 @@ const MyPost = () => {
                     </div>
                 </div>
 
-                <div className="socialContent">
 
 
-                    <div className="sharedPost">
+                <div className="sharedPost">
+
+                    <div className="socialContent">
+
+
                         <section className='SocialPageCardSec'>
                             <div className="mainDiv ">
                                 <div className="row">
