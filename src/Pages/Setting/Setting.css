@@ -1,0 +1,50 @@
+@media screen and (max-width:450px) {
+    .setttingDiv{
+        background-color: #edf0f2;
+        margin-bottom: 70px;
+        overflow-x: hidden;
+    }
+    .settingHead {
+        background-color: #edf0f2;
+        padding: 20px;
+    }
+
+    .settingHead>h3 {
+        font-weight: 700;
+    }
+
+    .setttingDiv>.uploadDiv>.postDiv{
+        margin: 0;
+    }
+
+    .setttingDiv .postDiv>.listWrraper{
+        padding: 10px;
+        font-weight: 500;
+    }
+
+    .setttingDiv>.uploadDiv>.postDiv>.listWrraper>.listItem>.listName>h1{
+        font-weight: 700 !important;
+
+    }
+
+    .nameDiv h1{
+        margin: 0;
+    }
+
+    .nameDiv>.postDiv{
+        margin: 0;
+    }
+
+    .css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked {
+        color: #99cb34 !important;
+    }
+
+    .css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked+.MuiSwitch-track {
+        background-color: #99cb34 !important;
+    }
+
+    .toogleDivs>.postDiv>h1{
+        padding-top: 10px ;
+        margin-left: 20px;
+    }
+}
