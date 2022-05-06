@@ -1,5 +1,6 @@
 import { Radio, Switch } from '@mui/material'
 import React from 'react'
+import Header from '../../components/Header/Header'
 import Logo from '../../components/Logo/Logo'
 import Navbar from '../../components/Navbar/Navbar'
 import './Setting.css'
@@ -13,6 +14,11 @@ const Setting = () => {
                 <div className="logoDiv">
                     <Logo />
                 </div>
+
+                <Header />
+
+                
+
 
                 <div className="settingHead">
                     <h3>Profile</h3>

@@ -1,6 +1,6 @@
-@media screen and (max-width:450px) {
+/* @media screen and (max-width:450px) { */
     .followCard {
-        min-width: 180px;
+        width: 180px;
         background-color: #fff;
         border-radius: 10px;
     }
@@ -74,4 +74,4 @@
     .followBtn:hover, .followBtn:active, .followBtn:focus {
         background-color: #ff8c19bd;
     }
-}
+/* } */

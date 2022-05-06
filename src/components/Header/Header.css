@@ -1,0 +1,57 @@
+@media screen and (max-width:450px) {
+
+    .header {
+        display: none !important;
+    }
+}
+
+.header {
+    background-color: #092130;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.homeProfileDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchDiv {
+    display: flex;
+    align-items: center;
+}
+
+.searchDiv>input {
+    background: #0d2f45;
+    outline: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+
+.searchDiv>input::placeholder {
+    color: #fff;
+}
+
+.searchbtn {
+    background: #ff8c19;
+    border: none;
+    height: 35px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.searchbtn:hover, .searchbtn:active, .searchbtn:focus {
+    background-color: #ff8c19bd;
+}
+
+.header>.homeProfileDiv>.proNameDiv>h2 {
+    font-size: 20px;
+    margin-left: 10px;
+}

@@ -1,19 +1,54 @@
-.toggle{
+.analyticsBar {
+    background-color: #edf0f2;
+    height: 80px;
+    width: 100%;
+    margin-bottom: 50px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px;
 }
 
-.MuiToggleButtonGroup-root{
-    width: 90%;
+.analyticsBar>img {
+    position: relative;
+    top: -100px;
+    left: 100px;
+    border-radius: 10px;
+
+}
+
+.analyticsBar>ul {
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.analyticsBar>ul>li {
+    list-style: none;
+}
+
+.analyticsBar>ul>li {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.toggle {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10px;
+    padding-left: 30px;
+}
+
+.MuiToggleButtonGroup-root {
+    width: 30%;
     border: 2px solid #99cb34 !important;
     padding: 0 !important;
 }
 
 
-.MuiToggleButtonGroup-root>button{
-    width:60%  !important;
+.MuiToggleButtonGroup-root>button {
+    width: 60% !important;
     color: #99cb34 !important;
     background-color: #edf0f2 !important;
     font-weight: 700 !important;
@@ -26,4 +61,68 @@
 .css-d9c359-MuiButtonBase-root-MuiToggleButton-root.Mui-selected {
     color: #ffff !important;
     background-color: #99cb34 !important;
+}
+
+.followersPageDiv {
+    display: none;
+}
+
+.followingCard {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20% ;
+    background-color: #f5f8fa;
+    width: 80%;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 20px;
+    row-gap: 10px;
+}
+
+@media screen and (max-width:450px) {
+
+    .followingCard{
+        display: none;
+    }
+
+    .followersPageDiv {
+        display: block;
+    }
+
+    .upperDiv {
+        display: none;
+    }
+
+    .analyticsBar {
+        display: none;
+    }
+
+    .toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+    }
+
+    .MuiToggleButtonGroup-root {
+        width: 90%;
+        border: 2px solid #99cb34 !important;
+        padding: 0 !important;
+    }
+
+
+    .MuiToggleButtonGroup-root>button {
+        width: 60% !important;
+        color: #99cb34 !important;
+        background-color: #edf0f2 !important;
+        font-weight: 700 !important;
+        font-size: 15px;
+        padding: 5px;
+        border: none;
+        margin: 0 !important;
+    }
+
+    .css-d9c359-MuiButtonBase-root-MuiToggleButton-root.Mui-selected {
+        color: #ffff !important;
+        background-color: #99cb34 !important;
+    }
 }

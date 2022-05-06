@@ -1,9 +1,40 @@
+.home {
+    overflow-x: hidden;
+}
+
 .news {
     display: flex;
     flex-wrap: wrap;
 }
 
+.navbarSecHome {
+    display: none;
+}
+
+.logoDiv {
+    display: none;
+}
+
+.contanier{
+    padding: 10px 50px;
+}
+
+
+
 @media screen and (max-width:450px) {
+
+    .contanier{
+        padding: 0;
+    }
+
+
+    .logoDiv {
+        display: block;
+    }
+
+    .navbarSecHome {
+        display: block;
+    }
 
     .logoDiv>.headDiv>h1 {
         background-color: #092130;
@@ -16,7 +47,7 @@
     .home {
         min-height: 100vh;
         margin-bottom: 60px;
-
+        overflow-x: hidden;
     }
 
     .news {
