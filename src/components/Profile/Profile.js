@@ -23,7 +23,7 @@ const Profile = () => {
                     </div>
 
                     <div className="nextArrow">
-                        <i class="fa-solid fa-angle-right"></i>
+                        <i className="fa-solid fa-angle-right"></i>
                     </div>
                 </div>
 
@@ -33,7 +33,7 @@ const Profile = () => {
 
                         <div className="listItem">
                             <div className="listIcon">
-                                <i class="fa-solid fa-pencil"></i>
+                                <i className="fa-solid fa-pencil"></i>
                             </div>
                             <div className="listName">
                                 <h1>My posts</h1>
@@ -41,7 +41,7 @@ const Profile = () => {
                         </div>
 
                         <div className="nextArrow">
-                            <i class="fa-solid fa-angle-right"></i>
+                            <i className="fa-solid fa-angle-right"></i>
                         </div>
 
                     </div>
@@ -50,14 +50,14 @@ const Profile = () => {
 
                         <div className="listItem">
                             <div className="listIcon">
-                                <i class="fa-solid fa-retweet"></i>
+                                <i className="fa-solid fa-retweet"></i>
                             </div>
                             <div className="listName">
                                 <h1>Reposts &</h1>
                             </div>
                         </div>
                         <div className="nextArrow">
-                            <i class="fa-solid fa-angle-right"></i>
+                            <i className="fa-solid fa-angle-right"></i>
 
                         </div>
                     </div>
@@ -71,7 +71,7 @@ const Profile = () => {
 
                         <div className="listItem">
                             <div className="listIcon">
-                                <i class="fa-solid fa-person-walking-arrow-right"></i>
+                                <i className="fa-solid fa-person-walking-arrow-right"></i>
                             </div>
                             <div className="listName">
                                 <h1>Followers</h1>
@@ -79,7 +79,7 @@ const Profile = () => {
                         </div>
 
                         <div className="nextArrow">
-                            <i class="fa-solid fa-angle-right"></i>
+                            <i className="fa-solid fa-angle-right"></i>
                         </div>
 
                     </div>
@@ -88,14 +88,14 @@ const Profile = () => {
 
                         <div className="listItem">
                             <div className="listIcon">
-                                <i class="fa-solid fa-person-walking-arrow-loop-left"></i>
+                                <i className="fa-solid fa-person-walking-arrow-loop-left"></i>
                             </div>
                             <div className="listName">
                                 <h1>Following</h1>
                             </div>
                         </div>
                         <div className="nextArrow">
-                            <i class="fa-solid fa-angle-right"></i>
+                            <i className="fa-solid fa-angle-right"></i>
 
                         </div>
                     </div>
@@ -109,7 +109,7 @@ const Profile = () => {
 
                         <div className="listItem">
                             <div className="listIcon">
-                                <i class="fa-solid fa-camera"></i>
+                                <i className="fa-solid fa-camera"></i>
                             </div>
                             <div className="listName">
                                 <h1>Photo & Videos</h1>
@@ -117,7 +117,7 @@ const Profile = () => {
                         </div>
 
                         <div className="nextArrow">
-                            <i class="fa-solid fa-angle-right"></i>
+                            <i className="fa-solid fa-angle-right"></i>
                         </div>
 
                     </div>
@@ -126,14 +126,14 @@ const Profile = () => {
 
                         <div className="listItem">
                             <div className="listIcon">
-                                <i class="fa-solid fa-chart-line"></i>
+                                <i className="fa-solid fa-chart-line"></i>
                             </div>
                             <div className="listName">
                                 <h1>Analitics</h1>
                             </div>
                         </div>
                         <div className="nextArrow">
-                            <i class="fa-solid fa-angle-right"></i>
+                            <i className="fa-solid fa-angle-right"></i>
 
                         </div>
                     </div>
@@ -142,14 +142,14 @@ const Profile = () => {
 
                         <div className="listItem">
                             <div className="listIcon">
-                                <i class="fa-solid fa-gear"></i>
+                                <i className="fa-solid fa-gear"></i>
                             </div>
                             <div className="listName">
                                 <h1>Setting</h1>
                             </div>
                         </div>
                         <div className="nextArrow">
-                            <i class="fa-solid fa-angle-right"></i>
+                            <i className="fa-solid fa-angle-right"></i>
 
                         </div>
                     </div>

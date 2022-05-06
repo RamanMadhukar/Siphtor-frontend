@@ -1,9 +1,230 @@
+.settingWebView {
+    width: 80%;
+    margin: 20px auto 40px;
+}
+
+.navigationDiv {
+    background-color: #edf0f2;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+.navlistItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.navlistIcon {
+    margin-right: 15px;
+    color: #cfd2d4;
+}
+
+.navlistHead>h5 {
+    color: #cfd2d4;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.settingNavActive>.navlistIcon {
+    color: #ff8c19;
+}
+
+.settingNavActive>.navlistHead>h5 {
+    color: #000;
+    font-weight: 500;
+}
+
+.mobileview {
+    display: none;
+}
+
+/* .settingMainDiv {
+    padding: 20px;
+} */
+
+.proDivhead {
+    margin: 20px 0 20px 10px;
+}
+
+.proDivhead>h5 {
+    font-size: 18px;
+}
+
+.profileDiv {
+    background-color: #f5f8fa;
+    border-radius: 10px;
+    padding: 10px 10px 30px;
+    margin-bottom: 10px;
+}
+
+.photoUloadDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.proUploadDiv {
+    width: 48%;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.proPreview {
+    height: 80px;
+    background-color: #e6e9eb;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.addBTN {
+    background-color: #e6e9eb;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 25px;
+    left: 30px;
+    border: 10px solid #f0f3f5;
+}
+
+.uploadBtnDiv {
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.uploadBtnDiv>button {
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+    background: #ff8c19;
+    border: none;
+    height: 35px;
+    font-size: 12px;
+    padding: 5px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.uploadBtnDiv>button:hover, .uploadBtnDiv>button:active, .uploadBtnDiv>button:focus {
+    background-color: #ff8c19bd;
+}
+
+.formDiv {
+    display: flex;
+    background-color: #fff;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+
+.updateDiv {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-right: 10px;
+}
+
+.updateDiv>label {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 0 5px;
+}
+
+.updateDiv>input {
+    outline: none;
+    border: 2px solid #e5e7e9;
+    border-radius: 5px;
+}
+
+.contentDiv {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.containerDiv {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    border-radius: 10px;
+    width: 45%;
+    align-items: center;
+    color: #7f7f7f;
+    margin: 0 10px 10px;
+}
+
+.containerDiv>i {
+    color: #fff;
+    background-color: #99cb34;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.updateDiv a {
+    font-size: 12px;
+    text-decoration: underline;
+    color: #afd7f2;
+}
+
+.smallHead {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 10px 20px 0;
+}
+
+.settingDiv{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px 0 0 ;
+}
+
+.settingDiv>.listWrraper {
+    display: flex;
+}
+
+.settingDiv>.listWrraper>.listItem{
+    display: flex;
+    margin: 0 10px 10px;
+    align-items: center;
+}
+
+.settingDiv>.listWrraper>.listItem>.listName>h6{
+    color: #7f7f7f;
+    font-weight: 400;
+}
+
+
 @media screen and (max-width:450px) {
-    .setttingDiv{
+
+    .mobileview {
+        display: block;
+    }
+
+    .settingWebView {
+        width: 100%;
+    }
+
+    .settingNavDiv {
+        display: none;
+    }
+
+    .settingMainDiv {
+        display: none;
+    }
+
+    .settingWebView {
+        margin: 0;
+        padding: 0;
+    }
+
+    .setttingDiv {
         background-color: #edf0f2;
         margin-bottom: 70px;
         overflow-x: hidden;
     }
+
     .settingHead {
         background-color: #edf0f2;
         padding: 20px;
@@ -13,25 +234,25 @@
         font-weight: 700;
     }
 
-    .setttingDiv>.uploadDiv>.postDiv{
+    .setttingDiv>.uploadDiv>.postDiv {
         margin: 0;
     }
 
-    .setttingDiv .postDiv>.listWrraper{
+    .setttingDiv .postDiv>.listWrraper {
         padding: 10px;
         font-weight: 500;
     }
 
-    .setttingDiv>.uploadDiv>.postDiv>.listWrraper>.listItem>.listName>h1{
+    .setttingDiv>.uploadDiv>.postDiv>.listWrraper>.listItem>.listName>h1 {
         font-weight: 700 !important;
 
     }
 
-    .nameDiv h1{
+    .nameDiv h1 {
         margin: 0;
     }
 
-    .nameDiv>.postDiv{
+    .nameDiv>.postDiv {
         margin: 0;
     }
 
@@ -43,8 +264,8 @@
         background-color: #99cb34 !important;
     }
 
-    .toogleDivs>.postDiv>h1{
-        padding-top: 10px ;
+    .toogleDivs>.postDiv>h1 {
+        padding-top: 10px;
         margin-left: 20px;
     }
 }
