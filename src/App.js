@@ -15,6 +15,7 @@ import FollowersPage from './Pages/FollowersPage/FollowersPage';
 import FollowingPage from './Pages/FollowingPage/FollowingPage';
 import MyPost from './Pages/MyPost/MyPost';
 import Setting from './Pages/Setting/Setting';
+import Analytics from './Pages/Analytics/Analytics';
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
           <Route path="/followingPage" exact element={<FollowingPage />} />
           <Route path="/myPost" exact element={<MyPost />} />
           <Route path="/setting" exact element={<Setting />} />
+          <Route path="/analytics" exact element={<Analytics />} />
         </Routes>
       </BrowserRouter>
 
